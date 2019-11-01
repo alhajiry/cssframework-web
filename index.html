@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Student Web Project Hacktiv8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Abdul Latif Hajiry">
+
+        <title>Personal Blog</title>
+
+        <!----------------CSS and External Font---------------------->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <!----------------------------------------------------------->
+    </head>
+
+<!------------------------------header------------------------------>
+   <body id="myPage">
+    
+    <!----Landing Page-->
+    <section class="wrapper" id="parallax-1">
+        <div class="overlay">
+
+            <header class="d-flex-r clear justify-content-space-between">
+
+                <!-- Logo -->
+               <!-- <div class="my-1" id="logo">ABDUL LATIF HAJIRY</div> -->
+
+                <!-- Navbar-->
+                <nav class="fl_right font-xs text-uppercase" id="main-navbar">
+
+                    <ul class="clear">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">Placeholder</a>
+                            <!-- List Ception;Ada list lagi di dalam list-->
+                          <ul>
+                            <li><a href="#">Placeholder</a></li>
+                            <li><a href="#">Placeholder</a></li>  
+                            <li><a href="#">Placeholder</a></li>  
+                            <li><a href="#">Placeholder</a></li>      
+                          </ul>
+                        </li>
+
+                        <li><a href="#" class="drop">Placeholder II</a> 
+                            <!-- Another menu ception; Level 2 Links-->
+                          <ul>
+                              <li><a href="#">Level 2</a></li>
+                              <li><a href="#" class="drop">Level 2 + Drop</a>
+
+                                <!-- Level 3 Links -->
+                                <ul>
+                                    <li><a href="#">Level 3</a></li>
+                                    <li><a href="#">Level 3</a></li>
+                                    <li><a href="#">Level 3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Level 2</a></li>
+                          </ul>
+                        </li>
+
+                       <!-- <!-- <li><a href="#">Insurance</a></li> -->
+                       <li><a href="#our-blog">Projects</a></li> 
+                       <li><a href="#">Contact Us</a></li>                  
+                    </ul>
+                </nav>
+            </header>
+
+            <!---- Banner text on landing page -->
+            <div id="banner-text" class="d-flex-c text-left">
+                <article>
+                    <p class="my-1 text-uppercase font-x2">hello ...</p>
+                    <h1 class="heading text-left text-uppercase text-bold font-x3 my-1">Need help to build <br> your awesome website ?</h1>
+                    <p class="my-3 font-x1">Feel free to click the button below. </p>
+                    <footer><button class="btn" href="#">I NEED A WEBSITE</button>
+                    <a href="#our-blog"><button class="btn">CLICK TO KNOW MORE</button></a></footer>
+                </article>
+            </div>
+            <!-- Banner Text Ends Here!  ----->
+        </div>
+    </section>
+    
+    <!----Blog Page-->
+    <section class="wrapper text-dark" id="our-blog">
+        <div class="d-flex-c container">
+
+          <!--blog title-->
+          <div class="text-center my-2">
+            <h6 class="heading font-x2 text-uppercase">Our Projects</h6>
+            <p>Placeholder Text</p>
+          </div>
+
+
+            <!---Blog Panels Begin-->
+            <div class="d-flex-r">
+
+                <!---First Panel-->
+                <article class="hover2 m-2">
+                    <figure><a href="#"><img src="img/bootstrap-web.png"></a></figure>
+                    <h3 class="m-2 text-center heading font-x1 text-uppercase">Bootstrap</h3>
+                    <ul class="meta m-1">
+                        <li><i class="fa fa-user"></i><a href="#">css-framework</a></li>
+                        <li><i class="fa fa-tag"></i><a href="#">web-design</a></li>
+                    </ul>
+                    <p class="m-2 text-justify">Cover page using bootstrap, can also be used to build resume</p>
+                    <footer class="m-2 text-center"><a href="bootstrap/index-bootstrap.html"><button class="btn">Go to Project >> </button></a></footer>
+                </article>
+
+                <!--Second Panel-->
+                <article class="hover2 m-2">
+                        <figure><a href="#"><img src="img/portfolio-2.jpg"></a></figure>
+                        <h3 class="m-2 text-center heading font-x1 text-uppercase">Bulma</h3>
+                        <ul class="meta m-1">
+                                <li><i class="fa fa-user"></i><a href="#">css-framework</a></li>
+                                <li><i class="fa fa-tag"></i><a href="#">web-design</a></li>
+                        </ul>
+                        <p class="m-2 text-justify">Placeholder Text...</p>
+                        <footer class="m-2 text-center"><a href=pages/bulma.html><button class="btn">Go to Project >> </button></a></footer>
+                    </article>
+                <!--Third Panel-->
+                <article class="hover2 m-2">
+                        <figure><a href="#"><img src="img/portfolio-3.jpg"></a></figure>
+                        <h3 class="m-2 text-center heading font-x1 text-uppercase">Materialize</h3>
+                        <ul class="meta m-1">
+                                <li><i class="fa fa-user"></i><a href="#">css-framework</a></li>
+                                <li><i class="fa fa-tag"></i><a href="#">web-design</a></li>
+                        </ul>
+                        <p class="m-2 text-justify"></p>
+                        <footer class="m-2 text-center"><a href="pages/materialize.html"> <button class="btn">Go to Project >> </button></a></footer>
+                </article>
+                <article class="hover2 m-2">
+                        <figure><a href="#"><img src="img/portfolio-3.jpg"></a></figure>
+                        <h3 class="m-2 text-center heading font-x1 text-uppercase">coming soon</h3>
+                        <ul class="meta m-1">
+                                <li><i class="fa fa-user"></i><a href="#">css-framework</a></li>
+                                <li><i class="fa fa-tag"></i><a href="#">web-design</a></li>
+                        </ul>
+                        <p class="m-2 text-justify">Placeholder Text...</p>
+                        <footer class="m-2 text-center"><a href="pages/materialize.html"> <button class="btn">Go to Project >> </button></a></footer>
+                </article>
+                <article class="hover2 m-2">
+                        <figure><a href="#"><img src="img/portfolio-3.jpg"></a></figure>
+                        <h3 class="m-2 text-center heading font-x1 text-uppercase">coming soon</h3>
+                        <ul class="meta m-1">
+                                <li><i class="fa fa-user"></i><a href="#">css-framework</a></li>
+                                <li><i class="fa fa-tag"></i><a href="#">web-design</a></li>
+                        </ul>
+                        <p class="m-2 text-justify">Placeholder Text...</p>
+                        <footer class="m-2 text-center"><a href="pages/materialize.html"> <button class="btn">Go to Project >> </button></a></footer>
+                </article>
+            </div>
+        </div>
+    </section>
+   </body>
+</html>
